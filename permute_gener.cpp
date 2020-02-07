@@ -29,14 +29,13 @@ int main()
 		{
 			str[i]=k;
 		}
-	//	cout<<"\n"<<"NUM OF CHARACTERS:"<<num<<endl;
+	
 		cout<<"\n CHARACTERS ACCORDING TO ENTERED VALUE NUMBER OF CHARACTERS:";
 		for(int i=0;i<num;i++)
 		{
 			cout<<" "<<str[i];
 		}
 		str[num]='\0';
-	//	cout<<"\n"<<num<<endl;
 		cout<<"\n GENERATED PERMUTATIONS:"<<endl;
 		perm(str,0,num-1);
 		
